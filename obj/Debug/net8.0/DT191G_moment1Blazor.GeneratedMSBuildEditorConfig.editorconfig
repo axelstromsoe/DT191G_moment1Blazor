@@ -1,0 +1,55 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = DT191G_moment1Blazor
+build_property.RootNamespace = DT191G_moment1Blazor
+build_property.ProjectDir = /Users/axestromsoe/Desktop/DT191G,  Webbutveckling med .NET/Moment 1/DT191G_moment1Blazor/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/axestromsoe/Desktop/DT191G,  Webbutveckling med .NET/Moment 1/DT191G_moment1Blazor
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/axestromsoe/Desktop/DT191G\,  Webbutveckling med .NET/Moment 1/DT191G_moment1Blazor/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/axestromsoe/Desktop/DT191G\,  Webbutveckling med .NET/Moment 1/DT191G_moment1Blazor/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/axestromsoe/Desktop/DT191G\,  Webbutveckling med .NET/Moment 1/DT191G_moment1Blazor/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/axestromsoe/Desktop/DT191G\,  Webbutveckling med .NET/Moment 1/DT191G_moment1Blazor/Layout/WebHeader.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L1dlYkhlYWRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/axestromsoe/Desktop/DT191G\,  Webbutveckling med .NET/Moment 1/DT191G_moment1Blazor/Pages/Calculator.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2FsY3VsYXRvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/axestromsoe/Desktop/DT191G\,  Webbutveckling med .NET/Moment 1/DT191G_moment1Blazor/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/axestromsoe/Desktop/DT191G\,  Webbutveckling med .NET/Moment 1/DT191G_moment1Blazor/Pages/Json.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSnNvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/axestromsoe/Desktop/DT191G\,  Webbutveckling med .NET/Moment 1/DT191G_moment1Blazor/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

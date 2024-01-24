@@ -1,0 +1,42 @@
+@page "/Json"
+@inject HttpClient Http
+
+<PageTitle>JSON</PageTitle>
+
+<h1>JSON</h1>
+
+<p>
+    På denna sida har jag skapat med hjälp av Http-anrop hämtat ett Chuck Norris-skämt som slumpmässigt generats från <a
+        href="https://api.chucknorris.io">https://api.chucknorris.io</a>
+</p>
+<h2>Autogenerat skämt</h2>
+@if (joke == null)
+{
+    <p>Laddar...</p>
+}
+else
+{
+    <p>@joke.value</p>
+}
+
+
+@code {
+    private Joke? joke;
+
+    // Http-anrop
+    protected override async Task OnInitializedAsync()
+    {
+        joke = await Http.GetFromJsonAsync<Joke>("https://api.chucknorris.io/jokes/random");
+    }
+    // Model för ramschema
+    public class Joke
+    {
+        public string[]? categories { set; get; }
+        public string? created_at { set; get; }
+        public string? icon_url { set; get; }
+        public string? id { set; get; }
+        public string? updated_at { set; get; }
+        public string? url { set; get; }
+        public string? value { set; get; }
+    }
+}

@@ -1,0 +1,49 @@
+@page "/calculator"
+
+<PageTitle>Kalkylator</PageTitle>
+
+<h1>Kalkylator</h1>
+
+<p>Detta formulär kan man använda för konvertera meter till fot</p>
+
+<form class="big-form">
+    <legend>Konvertera meter till fot</legend>
+    <label for="meter">Antal meter</label>
+    <input type="number" name="meter" id="meter" @bind="meter">
+
+    <div class="form-button-container">
+        <button @onclick:preventDefault="true" @onclick="MeterToFeet">Beräkna</button>
+    </div>
+
+    <p>@meter meter = @feet fot</p>
+</form>
+
+<p>Detta formulär kan man använda för konvertera kilometer/timme till miles/timme</p>
+<form class="big-form">
+    <legend>Konvertera km/h till mph</legend>
+    <label for="kmph">Kilometer/timme</label>
+    <input type="number" name="kmph" id="kmph" @bind="kmph">
+
+    <div class="form-button-container">
+        <button @onclick:preventDefault="true" @onclick="KmphToMph">Beräkna</button>
+    </div>
+
+    <p>@kmph km/h = @mph mph</p>
+</form>
+
+@code {
+    public double meter;
+    public double feet;
+    public double kmph;
+    public double mph;
+
+    private void MeterToFeet()
+    {
+        feet = Math.Round(meter * 3.2808399, 2);
+    }
+
+    private void KmphToMph()
+    {
+        mph = Math.Round(kmph * 0.621371192);
+    }
+}
